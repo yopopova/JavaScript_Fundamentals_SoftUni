@@ -3,5 +3,3 @@ function numbersFromOneToFive() {
         console.log(i);
     }
 }
-
-numbersFromOneToFive();

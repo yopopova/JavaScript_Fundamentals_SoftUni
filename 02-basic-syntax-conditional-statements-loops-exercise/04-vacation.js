@@ -12,7 +12,7 @@ function vacation(n, groupType, day) {
         }
 
         if (n >= 30) {
-            price *= 0.85; // 15% отстъпка от цената по условие.
+            price *= 0.85;
         }
 
     } else if (groupType === "Business") {

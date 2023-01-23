@@ -1,4 +1,4 @@
-# Programming Fundamentals with JavaScript | SoftUni Course
+# Programming Fundamentals with JavaScript | SoftUni
 
 ## Course Info
 

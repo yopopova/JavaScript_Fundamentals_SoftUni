@@ -1,4 +1,4 @@
-function arrayRotation(arr, rotationsCount) { // Решение без .shift() метод.
+function arrayRotation(arr, rotationsCount) {
     let arrayOfElements = arr;
     let rotations = rotationsCount;
     let arrayL = arrayOfElements.length - 1;

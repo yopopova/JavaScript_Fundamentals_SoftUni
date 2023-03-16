@@ -6,7 +6,7 @@ function simpleCalculator(firstNum, secondNum, operator) {
 
     switch (operator) {
         case 'add':
-            return add(firstNum, secondNum); // We don't need 'break', because we have 'return'.
+            return add(firstNum, secondNum);
         case 'subtract':
             return subtract(firstNum, secondNum);
         case 'multiply':

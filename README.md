@@ -14,3 +14,7 @@ Additional technologies needed by every software developer are studied, such as 
 - Analysis of complex problems and reduction to computer-executable steps
 - Basic HTML and CSS skills
 - Working with linear data structures
+
+## Certificate
+
+You can [follow the link](https://softuni.bg/certificates/details/119696/7a712fd5) to see my 'Programming Fundamentals with JavaScript' course score.

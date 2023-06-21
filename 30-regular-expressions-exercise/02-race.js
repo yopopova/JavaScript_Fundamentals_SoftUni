@@ -29,7 +29,7 @@ function race(input) {
         }
     }
 
-    let result = Object.entries(racers).sort((a, b) => b[1] - a[1]); // Масив от масиви.
+    let result = Object.entries(racers).sort((a, b) => b[1] - a[1]);
 
     if (result[0]) {
         console.log(`1st place: ${result[0][0]}`);

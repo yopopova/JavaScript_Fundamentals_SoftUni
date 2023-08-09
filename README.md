@@ -17,4 +17,4 @@ Additional technologies needed by every software developer are studied, such as 
 
 ## Certificate
 
-You can [follow the link](https://softuni.bg/certificates/details/119696/7a712fd5) to see my 'Programming Fundamentals with JavaScript' course score.
+![Programming Fundamentals with JS - September 2021 - Certificate](https://github.com/yopopova/JavaScript_Fundamentals_SoftUni/assets/59256039/35572168-0f1f-43e8-af81-de90f65cfcbf)

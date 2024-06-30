@@ -10,3 +10,5 @@ function matchFullName(text) {
 
     console.log(matches.join(' '));
 }
+
+matchFullName("Ivan Ivanov, Ivan ivanov, ivan Ivanov, IVan Ivanov, Test Testov, Ivan	Ivanov");

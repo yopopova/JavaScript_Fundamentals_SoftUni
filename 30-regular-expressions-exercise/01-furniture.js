@@ -8,7 +8,8 @@ function furniture(input) {
         let match = pattern.exec(line);
 
         if (match !== null) {
-            let { name, price, qty } = match.groups;
+            let { name, price, qty } = match.groups; // Destruct an object. Searches for properties with the same names and saves their values.
+            // ^ If we don't type '.groups', nothing will come out. It will output 'undefined' and 'NaN'.
             
             price = Number(price);
             qty = Number(qty);
@@ -25,3 +26,5 @@ function furniture(input) {
 
     console.log(`Total money spend: ${total.toFixed(2)}`);
 }
+
+furniture(['>>Sofa<<312.23!3', '>>TV<<300!5', '>Invalid<<!5', 'Purchase']);

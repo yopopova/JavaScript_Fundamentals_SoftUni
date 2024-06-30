@@ -1,4 +1,4 @@
-function countStringOccurrences(text, word) {
+function countStringOccurrences(text, word) { // Here the code is written so that only a specific word is encountered during the check.
     let textArr = text.split(' ');
     let counter = 0;
 
@@ -10,3 +10,5 @@ function countStringOccurrences(text, word) {
 
     console.log(counter);
 }
+
+countStringOccurrences('This is a word and it also is a sentence', 'is');

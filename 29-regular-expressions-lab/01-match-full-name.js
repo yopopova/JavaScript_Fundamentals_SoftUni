@@ -1,4 +1,4 @@
-function matchFullName(text) {
+function matchFullName(text) { // This solution doesn't work in Judge.
     let regEx = /\b[A-Z][a-z]+ [A-Z][a-z]+\b/g;
     let matches = text.match(regEx);
 
@@ -6,3 +6,5 @@ function matchFullName(text) {
         console.log(name);
     }
 }
+
+matchFullName("Ivan Ivanov, Ivan ivanov, ivan Ivanov, IVan Ivanov, Test Testov, Ivan	Ivanov");

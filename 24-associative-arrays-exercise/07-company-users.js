@@ -9,7 +9,7 @@ function companyUsers(input) {
         }
 
         if (!listOfCompanies[company].includes(number)) {
-            listOfCompanies[company].push(number);
+            listOfCompanies[company].push(number); // Add the 'id' of the employee if not contained in the array.
         }
     }
 
@@ -24,3 +24,5 @@ function companyUsers(input) {
         }
     }
 }
+
+companyUsers(['SoftUni -> AA12345', 'SoftUni -> BB12345', 'Microsoft -> CC12345', 'HP -> BB12345']);

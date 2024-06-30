@@ -10,3 +10,6 @@ function stringSubstring(word, text) {
         console.log(`${wordToLower} not found!`);
     }
 }
+
+stringSubstring('javascript', 'JavaScript is the best programming language');
+stringSubstring('python', 'JavaScript is the best programming language');

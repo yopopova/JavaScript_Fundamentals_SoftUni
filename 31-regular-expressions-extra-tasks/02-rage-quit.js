@@ -28,3 +28,6 @@ function rageQuit(str) {
     console.log(`Unique symbols used: ${symbolsCount.length}`);
     console.log(symbolsArray.join(''));
 }
+
+rageQuit('a3');
+rageQuit('aSd2&5s@1');

@@ -1,5 +1,5 @@
 function storage(input) {
-    let newStorage = new Map();
+    let newStorage = new Map(); // This is how we define Map().
 
     for (let entry of input) {
         entry = entry.split(' ');
@@ -8,9 +8,11 @@ function storage(input) {
 
         if (newStorage.has(name)) {
             let newQuantity = newStorage.get(name) + quantity;
-            newStorage.set(name, newQuantity);
+            // ^ With newStorage.get(name) we take the old value and add the new one to it.
+            newStorage.set(name, newQuantity); // So we add the new value of this name in Map().
         } else {
             newStorage.set(name, quantity);
+            // ^ To add the remaining values ​​to Map().
         }
     }
 
@@ -18,3 +20,5 @@ function storage(input) {
         console.log(`${entryStorage[0]} -> ${entryStorage[1]}`);
     }
 }
+
+storage(['tomatoes 10', 'coffee 5', 'olives 100', 'coffee 40']);

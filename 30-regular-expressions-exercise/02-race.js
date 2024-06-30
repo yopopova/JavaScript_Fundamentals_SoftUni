@@ -12,8 +12,8 @@ function race(input) {
     while (input[0] !== 'end of race') {
         let line = input.shift();
 
-        let letters = line.match(namePattern);
-        let numbers = line.match(distancePattern);
+        let letters = line.match(namePattern); // '.match' returns all letters of the name as an array.
+        let numbers = line.match(distancePattern); // '.match' returns all numbers as an array but as strings.
 
         let name = letters.join('');
         let distances = numbers.map(Number);
@@ -29,7 +29,7 @@ function race(input) {
         }
     }
 
-    let result = Object.entries(racers).sort((a, b) => b[1] - a[1]);
+    let result = Object.entries(racers).sort((a, b) => b[1] - a[1]); // Array of arrays.
 
     if (result[0]) {
         console.log(`1st place: ${result[0][0]}`);
@@ -43,3 +43,5 @@ function race(input) {
         console.log(`3rd place: ${result[2][0]}`);
     }
 }
+
+race(['George, Peter, Bill, Tom', 'G4e@55or%6g6!68e!!@ ', 'R1@!3a$y4456@', 'B5@i@#123ll', 'G@e54o$r6ge#', '7P%et^#e5346r', 'T$o553m&6', 'end of race']);

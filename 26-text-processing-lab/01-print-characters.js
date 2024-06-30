@@ -3,3 +3,5 @@ function printCharacters(str) {
         console.log(ch);
     }
 }
+
+printCharacters('AWord');

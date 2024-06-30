@@ -24,3 +24,14 @@ function messageDecrypter(input) {
         }
     }
 }
+
+messageDecrypter(["4",
+    "$Request$: [73]|[115]|[105]|",
+    "%Taggy$: [73]|[73]|[73]|",
+    "%Taggy%: [118]|[97]|[108]|",
+    "$Request$: [73]|[115]|[105]|[32]|[75]|"]);
+
+messageDecrypter(["3",
+"This shouldnt be valid%Taggy%: [118]|[97]|[108]|",
+"$tAGged$: [97][97][97]|",
+"$Request$: [73]|[115]|[105]|true"]);

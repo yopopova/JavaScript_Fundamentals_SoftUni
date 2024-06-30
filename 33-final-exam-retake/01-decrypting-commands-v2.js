@@ -19,7 +19,7 @@ function decryptingCommands(input) {
             let indexEnd = Number(elTwo);
 
             if (indexStart >= 0 && indexStart < message.length && indexEnd >= 0 && indexEnd < message.length) {
-                let removedSubstr = message.substr(indexStart + 1, indexEnd);
+                let removedSubstr = message.substr(indexStart + 1, indexEnd); // The substr() method grabs the subscripts inclusively.
 
                 let newMessage = message.split(removedSubstr).join('');
                 message = newMessage;
@@ -69,3 +69,18 @@ function decryptingCommands(input) {
         }
     }
 }
+
+decryptingCommands(["ILikeSoftUni",
+    "Replace I We",
+    "Make Upper",
+    "Check SoftUni",
+    "Sum 1 4",
+    "Cut 1 4",
+    "Finish"]);
+
+decryptingCommands(["HappyNameDay",
+    "Replace p r",
+    "Make Lower",
+    "Cut 2 23",
+    "Sum -2 2",
+    "Finish"]);

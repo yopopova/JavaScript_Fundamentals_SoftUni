@@ -19,6 +19,11 @@ function decryptingCommands(input) {
             let indexEnd = Number(elTwo);
 
             if (indexStart >= 0 && indexStart < message.length && indexEnd >= 0 && indexEnd < message.length) {
+                // let currMessage = message.split('');
+
+                // let partOne = currMessage.slice(0, indexStart + 1).join('');
+                // let partTwo = currMessage.slice(indexStart + 1, indexEnd + (indexStart + 1)).join('');
+                // let partThree = currMessage.slice(indexEnd + (indexStart + 1)).join('');
 
                 let firstPart = message.substring(0, indexStart + 1);
                 let secondPart = message.substring(indexStart + 1, indexEnd + (indexStart + 1));
@@ -72,3 +77,18 @@ function decryptingCommands(input) {
         }
     }
 }
+
+decryptingCommands(["ILikeSoftUni",
+    "Replace I We",
+    "Make Upper",
+    "Check SoftUni",
+    "Sum 1 4",
+    "Cut 1 4",
+    "Finish"]);
+
+decryptingCommands(["HappyNameDay",
+    "Replace p r",
+    "Make Lower",
+    "Cut 2 23",
+    "Sum -2 2",
+    "Finish"]);

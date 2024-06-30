@@ -22,3 +22,12 @@ function registration(input) {
 
     console.log(`Successful registrations: ${registrationsCount}`);
 }
+
+registration(["3",
+    "U$MichaelU$P@$asdqwe123P@$",
+    "U$NameU$P@$PasswordP@$",
+    "U$UserU$P@$ad2P@$"]);
+
+registration(["2",
+    "U$TommyU$P@$asdqwe123P@$",
+    "Sara 1232412"]);

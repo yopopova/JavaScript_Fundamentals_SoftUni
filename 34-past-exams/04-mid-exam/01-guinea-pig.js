@@ -38,3 +38,7 @@ function guineaPig(input) {
         console.log(`Everything is fine! Puppy is happy! Food: ${food.toFixed(2)}, Hay: ${hay.toFixed(2)}, Cover: ${cover.toFixed(2)}.`);
     }
 }
+
+guineaPig(["10", "5", "5.2", "1"]);
+// guineaPig(["1", "1.5", "3", "1.5"]);
+// guineaPig(["9", "5", "5.2", "1"]);

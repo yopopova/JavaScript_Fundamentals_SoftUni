@@ -24,6 +24,9 @@ function secretChat(input) {
                 let partOne = message.substring(0, index);
                 let partTwo = message.substring(index, index + subString.length).split('').reverse().join('');
                 let partThree = message.substring(index + subString.length);
+                // ^ This is done on purpose because string indices also count from 0,
+                // ^ so another empty index is taken and added in the middle,
+                // ^ to get the actual length of the string when concatenating and printing.
 
                 message = partOne.concat(partThree, partTwo);
                 console.log(message);
@@ -42,3 +45,6 @@ function secretChat(input) {
 
     console.log(`You have a new text message: ${message}`);
 }
+
+secretChat(['heVVodar!gniV', 'ChangeAll:|:V:|:l', 'Reverse:|:!gnil', 'InsertSpace:|:5', 'Reveal']);
+// secretChat(['Hiware?uiy', 'ChangeAll:|:i:|:o', 'Reverse:|:?uoy', 'Reverse:|:jd', 'InsertSpace:|:3', 'InsertSpace:|:7', 'Reveal']);

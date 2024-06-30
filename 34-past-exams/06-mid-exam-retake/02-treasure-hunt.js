@@ -3,7 +3,7 @@ function treasureHunt(input) {
     let line = input.shift();
 
     while (true) {
-        let [command, ...items] = line.split(' ');
+        let [command, ...items] = line.split(' '); // We separate the command with command and separate the elements to the command in an array.
 
         if (command === 'Yohoho!') {
             break;
@@ -21,14 +21,17 @@ function treasureHunt(input) {
 
             if (index >= 0 && index < chest.length) {
                 let loot = chest.splice(index, 1);
-                chest.push(loot[0]);
+                // ^ Here the variable 'loot' is an array and holds the element we have removed from the main array.
+                chest.push(loot[0]); // Or chest.push(...loot); -> to get the elements from the 'loot' array.
             }
 
         } else if (command === 'Steal') {
             let stolenElementsCount = Number(items[0]);
             let stolenTreasure = chest.slice(-stolenElementsCount);
+            // ^ With .slice() we take the slice of the array we need and the method automatically inserts it into a new array.
     
             chest.splice(-stolenElementsCount);
+            // ^ Here we modify the main array to clear it of the stolen elements and only be able to work with the stuff left in it.
         
             console.log(stolenTreasure.join(', '));
         }
@@ -50,3 +53,6 @@ function treasureHunt(input) {
         console.log('Failed treasure hunt.');
     }
 }
+
+// treasureHunt(["Gold|Silver|Bronze|Medallion|Cup", "Loot Wood Gold Coins", "Loot Silver Pistol", "Drop 3", "Steal 3", "Yohoho!"]);
+treasureHunt(["Diamonds|Silver|Shotgun|Gold", "Loot Silver Medals Coal", "Drop -1", "Drop 1", "Steal 6", "Yohoho!"]);

@@ -3,7 +3,7 @@ function inventory(input) {
     input.pop();
 
     for (let i = 0; i < input.length; i++) {
-        let [command, item] = input[i].split(' - ');
+        let [command, item] = input[i].split(' - '); // We must add spaces on either side of the '-' because otherwise the commands will not be recognized further down the code.
 
         if (command === 'Collect') {
             if (!collectionOfItems.includes(item)) {
@@ -35,3 +35,6 @@ function inventory(input) {
 
     console.log(collectionOfItems.join(', '));
 }
+
+inventory(['Iron, Wood, Sword', 'Collect - Gold', 'Drop - Wood', 'Craft!']);
+inventory(['Iron, Sword', 'Drop - Bronze', 'Combine Items - Sword:Bow', 'Renew - Iron', 'Craft!']);

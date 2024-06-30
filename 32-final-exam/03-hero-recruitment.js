@@ -64,3 +64,25 @@ function heroRecruitment(input) {
         console.log(`== ${heroName}: ${heroProperties.spellbook}`);
     }
 }
+
+heroRecruitment(["Enroll Stefan",
+    "Enroll Peter",
+    "Enroll Stefan",
+    "Learn Stefan ItShouldWork",
+    "Learn John ItShouldNotWork",
+    "Unlearn George Dispel",
+    "Unlearn Stefan ItShouldWork",
+    "End"]);
+
+heroRecruitment(["Enroll Stefan",
+    "Learn Stefan ItShouldWork",
+    "Learn Stefan ItShouldWork",
+    "Unlearn Stefan NotFound",
+    "End"]);
+
+heroRecruitment(["Enroll Stefan",
+    "Enroll Peter",
+    "Enroll John",
+    "Learn Stefan Spell",
+    "Learn Peter Dispel",
+    "End"]);

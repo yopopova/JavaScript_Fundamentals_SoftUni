@@ -19,3 +19,7 @@ function SoftUniReception(input) {
 
     console.log(`Time needed: ${hours}h.`);
 }
+
+SoftUniReception(['5', '6', '4', '20']);
+SoftUniReception(['1', '2', '3', '45']);
+SoftUniReception(['3', '2', '5', '40']);

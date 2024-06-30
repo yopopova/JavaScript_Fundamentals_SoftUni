@@ -26,3 +26,6 @@ function blackFlag(input) {
         console.log(`Ahoy! ${totalPlunder.toFixed(2)} plunder gained.`);
     }
 }
+
+blackFlag(["5", "40", "100"]);
+blackFlag(["10", "20", "380"]);

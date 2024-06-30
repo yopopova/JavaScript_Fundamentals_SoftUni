@@ -21,7 +21,7 @@ function worldTour(input) {
 
             if (startIndex >= 0 && startIndex < stops.length && endIndex >= 0 && endIndex < stops.length) {
                 let searchedWord = stops.substring(startIndex, endIndex + 1);
-                stops = stops.replace(searchedWord, '');
+                stops = stops.replace(searchedWord, ''); // So we cut without replacing anything.
             }
 
         } else if (command === 'Switch') {
@@ -38,3 +38,5 @@ function worldTour(input) {
 
     console.log(`Ready for world tour! Planned stops: ${stops}`);
 }
+
+worldTour(["Hawai::Cyprys-Greece", "Add Stop:7:Rome", "Remove Stop:11:16", "Switch:Hawai:Bulgaria", "Travel"]);

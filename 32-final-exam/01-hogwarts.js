@@ -56,3 +56,22 @@ function hogwarts(input) {
         }
     }
 }
+
+hogwarts(["A7ci0",
+    "Illusion 1 c",
+    "Illusion 4 o",
+    "Abjuration",
+    "Abracadabra"]);
+
+hogwarts(["TR1GG3R",
+    "Necromancy",
+    "Illusion 8 m",
+    "Illusion 9 n",
+    "Abracadabra"]);
+
+hogwarts(["SwordMaster",
+    "Target Target Target",
+    "Abjuration",
+    "Necromancy",
+    "Alteration master",
+    "Abracadabra"]);

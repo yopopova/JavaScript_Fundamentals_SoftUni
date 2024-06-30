@@ -25,9 +25,12 @@ function theImitationGame(input) {
             let subStr = elOne;
             let replacement = elTwo;
 
-            message = message.split(subStr).join(replacement);
+            message = message.split(subStr).join(replacement); // So we replace each character with the new one.
         }
     }
 
     console.log(`The decrypted message is: ${message}`);
 }
+
+// theImitationGame(['zzHe', 'ChangeAll|z|l', 'Insert|2|o', 'Move|3', 'Decode',]);
+theImitationGame(['owyouh', 'Move|2', 'Move|3', 'Insert|3|are', 'Insert|9|?', 'Decode',]);

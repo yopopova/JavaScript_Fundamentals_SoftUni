@@ -1,10 +1,10 @@
 function oddAndEvenSum(n) {
-    let digitsArr = splitNumber(n);
+    let digitsArr = splitNumber(n); // We always tell the program what parameter we want to use.
     let sums = sumsArr(digitsArr);
     let result = `Odd sum = ${sums[1]}, Even sum = ${sums[0]}`;
 
     function splitNumber(num) {
-        return num.toString().split('');
+        return num.toString().split(''); // This will return array of string.
     }
 
     function sumsArr(arr) {
@@ -26,3 +26,6 @@ function oddAndEvenSum(n) {
 
     return result;
 }
+
+let result = oddAndEvenSum('1000435');
+console.log(result);

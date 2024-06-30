@@ -19,3 +19,6 @@ function catsCreator(array) {
 
     cats.map(c => c.meow());
 }
+
+catsCreator(['Mellow 2', 'Tom 5']);
+catsCreator(['Candy 1', 'Poppy 3', 'Nyx 2']);

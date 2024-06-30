@@ -74,3 +74,28 @@ function systemsRegister(arr) {
         }
     }
 }
+
+systemsRegister([
+    'SULS | Main Site | Home Page',
+    'SULS | Main Site | Login Page',
+    'SULS | Main Site | Register Page',
+    'SULS | Judge Site | Login Page',
+    'SULS | Judge Site | Submittion Page',
+    'Lambda | CoreA | A23',
+    'SULS | Digital Site | Login Page',
+    'Lambda | CoreB | B24',
+    'Lambda | CoreA | A24',
+    'Lambda | CoreA | A25',
+    'Lambda | CoreC | C4',
+    'Indice | Session | Default Storage',
+    'Indice | Session | Default Security']);
+
+// systemsRegister([
+//     'Shift | Section-A | A-2',
+//     'Shift | Section-A | A-3',
+//     'Shift | Section-A | A-23',
+//     'Shift | Section-B | B-1',
+//     'Shift | Section-B | B-64',
+//     'Shift | Section-B | B-56',
+//     'Shit | Anex | Indie',
+//     'Shit | Bider | Indie']);

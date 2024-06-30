@@ -32,3 +32,6 @@ function oddAndEvenSum(input) {
 
     console.log(`Odd sum = ${takeOddSum(inputAsString)}, Even sum = ${takeEvenSum(inputAsString)}`);
 }
+
+oddAndEvenSum(1000435);
+oddAndEvenSum(3495892137259234);

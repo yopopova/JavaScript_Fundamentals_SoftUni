@@ -15,11 +15,12 @@ function passwordValidator(pass) {
             let code = char.charCodeAt();
 
             if (code < 48 || code > 57 && code < 65 || code > 90 && code < 97 || code > 122) {
-                isLetterOrDigit = false;
+                isLetterOrDigit = false; // The char in not letter, nor number.
             }
         }
 
         return isLetterOrDigit ? '' : 'Password must consist only of letters and digits\n';
+        // ^ If 'isLetterOrDigit' is 'false', it will return 'Password must consist only of letters and digits'. If it's 'true', it will return ''.
     }
 
     function twoDigits(str) {
@@ -44,3 +45,6 @@ function passwordValidator(pass) {
     result = passLength(pass) + onlyLettersAndDigits(pass) + twoDigits(pass);
     return result ? result : 'Password is valid';
 }
+
+let result = passwordValidator('MyPass123');
+console.log(result);

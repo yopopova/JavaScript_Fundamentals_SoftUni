@@ -13,3 +13,6 @@ function processOddNumbers(input) {
     newArr.reverse();
     console.log(newArr.join(' '));
 }
+
+processOddNumbers([10, 15, 20, 25]);
+processOddNumbers([3, 0, 10, 4, 7, 3]);

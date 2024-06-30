@@ -5,3 +5,6 @@ function sortAnArrayByTwoCriteria(input) {
 
     console.log(sortedArr.join('\n'));
 }
+
+sortAnArrayByTwoCriteria(['alpha', 'beta', 'gamma']);
+// sortAnArrayByTwoCriteria(['Isacc', 'Theodor', 'Jack', 'Harrison', 'George']);

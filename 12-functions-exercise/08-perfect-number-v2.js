@@ -17,3 +17,7 @@ function perfectNumber(n) {
         console.log("It's not so perfect.");
     }
 }
+
+perfectNumber(6);
+perfectNumber(28);
+perfectNumber(1236498);

@@ -18,3 +18,6 @@ function loadingBar(n) {
 
     return result;
 }
+
+let result = loadingBar(30);
+console.log(result);

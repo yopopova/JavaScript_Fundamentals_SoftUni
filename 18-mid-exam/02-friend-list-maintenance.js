@@ -49,3 +49,7 @@ function friendListMaintenance(input) {
     console.log(`Lost names: ${lostNamesCount}`);
     console.log(frinedsList.join(' '));
 }
+
+friendListMaintenance(["Mike, John, Eddie", "Blacklist Mike", "Error 0", "Report"]);
+friendListMaintenance(["Mike, John, Eddie, William", "Error 3", "Error 3", "Change 0 Mike123", "Report"]);
+friendListMaintenance(["Mike, John, Eddie, William", "Blacklist Maya", "Error 1", "Change 4 George", "Report"]);

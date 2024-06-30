@@ -14,3 +14,8 @@ function charactersInRange(a, b) {
 
     return firstChar > secondChar ? charsInline(secondChar, firstChar) : charsInline(firstChar, secondChar);
 }
+
+// let result = charactersInRange('a', 'd');
+let result = charactersInRange('#', ':');
+// let result = charactersInRange('C', '#');
+console.log(result);

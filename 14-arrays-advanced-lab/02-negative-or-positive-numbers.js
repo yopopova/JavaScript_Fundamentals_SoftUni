@@ -13,3 +13,6 @@ function negativeOrPositiveNumbers(input) {
         console.log(element);
     }
 }
+
+negativeOrPositiveNumbers([7, -2, 8, 9]);
+// negativeOrPositiveNumbers([3, -2, 0, -1]);

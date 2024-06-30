@@ -8,3 +8,6 @@ function employees(input) {
         console.log(`Name: ${singlePerson.name} -- Personal Number: ${singlePerson.personalNum}`);
     }
 }
+
+employees(['Silas Butler', 'Adnaan Buckley', 'Juan Peterson', 'Brendan Villarreal']);
+employees(['Samuel Jackson', 'Will Smith', 'Bruce Willis', 'Tom Holland']);

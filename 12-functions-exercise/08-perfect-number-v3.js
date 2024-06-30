@@ -14,3 +14,7 @@ function perfectNumber(n) {
     let result = perfectOrNot(n) === n ? "We have a perfect number!" : "It's not so perfect.";
     console.log(result);
 }
+
+perfectNumber(6);
+perfectNumber(28);
+perfectNumber(1236498);

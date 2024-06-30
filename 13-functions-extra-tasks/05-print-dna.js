@@ -14,6 +14,9 @@ function printDna(number) {
             console.log(`*${helix[counter % 10]}--${helix[(counter % 10) + 1]}*`);
         }
 
-        counter += 2;
+        counter += 2; // We increment the counter by '2' each time, because we take two consecutive symbols from 'helix' each time the loop turns.
     }
 }
+
+printDna(4);
+printDna(10);

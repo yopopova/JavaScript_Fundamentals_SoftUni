@@ -12,3 +12,6 @@ function matrix(n) {
 
     return columns(n);
 }
+
+let result = matrix(3);
+console.log(result);

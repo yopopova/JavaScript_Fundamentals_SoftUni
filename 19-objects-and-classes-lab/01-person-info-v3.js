@@ -10,3 +10,5 @@ function personInfo(fName, lName, personAge) {
     let person = new personalInfo(fName, lName, personAge);
     return person;
 }
+
+console.log(personInfo("Peter", "Pan", "20"));

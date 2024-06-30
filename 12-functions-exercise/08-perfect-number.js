@@ -20,3 +20,6 @@ function perfectNumber(n) {
 
     return result;
 }
+
+let result = perfectNumber(6);
+console.log(result);

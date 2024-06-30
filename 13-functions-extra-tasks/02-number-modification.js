@@ -20,3 +20,6 @@ function numberModification(number) {
 
   console.log(findTheNumber(number));
 }
+
+numberModification(101);
+numberModification(5835);

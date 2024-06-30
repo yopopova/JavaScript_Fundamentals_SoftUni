@@ -14,7 +14,7 @@ function houseParty(input) {
             }
 
             partyList = partyList.filter((x) => {
-                return x !== name;
+                return x !== name; // This is how we get the names of the people who will not go, but are on the list.
             });
 
         } else {
@@ -29,3 +29,6 @@ function houseParty(input) {
 
     console.log(partyList.join('\n'));
 }
+
+houseParty(['Allie is going!', 'George is going!', 'John is not going!', 'George is not going!']);
+// houseParty(['Tom is going!', 'Annie is going!', 'Tom is going!', 'Garry is going!', 'Jerry is going!']);

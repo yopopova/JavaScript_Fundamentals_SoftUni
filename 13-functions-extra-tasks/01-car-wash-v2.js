@@ -25,3 +25,5 @@ function carWash(arrOfCommands) {
     let cleaningPercentage = cleaning(arrOfCommands);
     console.log(`The car is ${cleaningPercentage.toFixed(2)}% clean.`);
 }
+
+carWash(['soap', 'soap', 'vacuum cleaner', 'mud', 'soap', 'water']);

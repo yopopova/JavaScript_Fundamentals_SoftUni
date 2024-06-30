@@ -10,7 +10,9 @@ function palindromeIntegers(input) {
     };
 
     for (let i = 0; i < inputL; i++) {
-        let currentNumber = arrOfNumbers[i];
-        console.log(isPalindrome(currentNumber));
+        let currentNumber = arrOfNumbers[i]; // This is how we get each of the numbers from the array.
+        console.log(isPalindrome(currentNumber)); // Apply this function to each of the elements.
     }
 }
+
+palindromeIntegers([123, 323, 421, 121]);

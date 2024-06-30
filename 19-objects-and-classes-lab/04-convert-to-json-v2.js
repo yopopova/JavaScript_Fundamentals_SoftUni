@@ -10,3 +10,6 @@ function convertToJSON(fName, lName, colorOfHear) {
     let person = new PersonInfo(fName, lName, colorOfHear);
     console.log(JSON.stringify(person));
 }
+
+convertToJSON('George', 'Jones', 'Brown');
+convertToJSON('Peter', 'Smith', 'Blond');

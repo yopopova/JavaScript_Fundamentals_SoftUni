@@ -18,3 +18,7 @@ function loadingBar(n) {
 
     console.log(result);
 }
+
+loadingBar(30);
+loadingBar(50);
+loadingBar(100);

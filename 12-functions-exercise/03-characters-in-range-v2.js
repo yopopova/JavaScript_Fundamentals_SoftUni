@@ -13,3 +13,7 @@ function charactersInRange(first, second) {
 
     console.log(result.join(' '));
 }
+
+charactersInRange('a', 'd');
+charactersInRange('#', ':');
+charactersInRange('C', '#');

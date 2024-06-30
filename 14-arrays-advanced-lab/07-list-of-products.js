@@ -10,3 +10,7 @@ function listOfProducts(input) {
         console.log(`${i + 1}.${sortedInput[i]}`);
     }
 }
+
+// listOfProducts(["Potatoes", "Tomatoes", "Onions", "Apples"]);
+listOfProducts(['Watermelon', 'Banana', 'Apples']);
+// listOfProducts([]);

@@ -10,3 +10,6 @@ function addAndSubtract(x, y, z) {
 
     return subtract(sum(x, y), z);
 }
+
+let result = addAndSubtract(23, 6, 10);
+console.log(result);

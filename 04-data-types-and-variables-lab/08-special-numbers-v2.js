@@ -16,3 +16,5 @@ function specialNumbers(n) {
         sum = 0;
     }
 }
+
+specialNumbers(15);

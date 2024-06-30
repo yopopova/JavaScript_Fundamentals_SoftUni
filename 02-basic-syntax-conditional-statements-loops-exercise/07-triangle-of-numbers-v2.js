@@ -4,3 +4,7 @@ function triangleOfNumbers(n) {
         console.log(buffer.repeat(i));
     }
 }
+
+triangleOfNumbers(3);
+// triangleOfNumbers(5);
+// triangleOfNumbers(6);

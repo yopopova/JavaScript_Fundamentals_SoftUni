@@ -11,3 +11,5 @@ function triplesOfLatinLetters(num) {
         }
     }
 }
+
+triplesOfLatinLetters(3);

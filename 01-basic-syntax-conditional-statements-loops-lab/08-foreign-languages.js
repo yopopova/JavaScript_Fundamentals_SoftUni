@@ -7,3 +7,6 @@ function foreignLanguages(country) {
         console.log("unknown");
     }
 }
+
+foreignLanguages("USA");
+foreignLanguages("Germany");

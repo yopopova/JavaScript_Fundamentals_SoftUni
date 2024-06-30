@@ -25,3 +25,5 @@ function chessBoard(n) {
 
     console.log('</div>');
 }
+
+chessBoard(3);

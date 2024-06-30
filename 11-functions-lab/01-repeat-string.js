@@ -7,3 +7,6 @@ function repeatString(text, num) {
 
     return result;
 }
+
+let result = repeatString('abc', 3);
+console.log(result);

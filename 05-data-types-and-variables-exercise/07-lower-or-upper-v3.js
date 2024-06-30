@@ -4,3 +4,6 @@ function lowerOrUpper(input) {
     let result = isUpper === char ? 'upper-case' : 'lower-case';
     console.log(result);
 }
+
+lowerOrUpper('L');
+lowerOrUpper('f');

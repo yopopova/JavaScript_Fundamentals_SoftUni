@@ -10,3 +10,7 @@ function primeNumberChecker(num) {
 
     console.log(isPrime);
 }
+
+primeNumberChecker(7);
+primeNumberChecker(8);
+primeNumberChecker(81);

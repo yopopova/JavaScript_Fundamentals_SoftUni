@@ -22,3 +22,6 @@ function orders(product, quantity) {
 
     return totalPrice.toFixed(2);
 }
+
+let result = orders('coffee', 2);
+console.log(result);

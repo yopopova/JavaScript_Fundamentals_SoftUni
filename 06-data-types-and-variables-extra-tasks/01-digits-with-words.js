@@ -14,3 +14,7 @@ function digitsWithWords(word) {
         case 'nine': console.log(9); break;
     }
 }
+
+digitsWithWords('nine');
+digitsWithWords('two');
+digitsWithWords('zero');

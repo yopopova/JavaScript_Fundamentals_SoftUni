@@ -6,3 +6,5 @@ function numbersFromOneToFive() {
         i++;
     }
 }
+
+numbersFromOneToFive();

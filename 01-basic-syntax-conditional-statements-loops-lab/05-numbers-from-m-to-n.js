@@ -3,3 +3,5 @@ function numbersFromMToN(m, n) {
         console.log(i);
     }
 }
+
+numbersFromMToN(6, 2);

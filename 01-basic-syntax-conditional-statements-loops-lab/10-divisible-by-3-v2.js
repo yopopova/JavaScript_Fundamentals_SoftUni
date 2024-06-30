@@ -3,3 +3,5 @@ function divisibleByThree() {
         console.log(i);
     }
 }
+
+divisibleByThree();

@@ -10,3 +10,6 @@ function sumOfOddNumbers(count) {
 
     console.log(`Sum: ${sum}`);
 }
+
+sumOfOddNumbers(5);
+sumOfOddNumbers(3);

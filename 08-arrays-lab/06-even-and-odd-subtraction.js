@@ -10,6 +10,10 @@ function evenAndOddSubtraction(arr) {
         }
     }
 
-    let diff = evenSum - oddSum;
+    let diff = evenSum - oddSum; // By condition, we always subtract the odd amount from the even amount.
     console.log(diff);
 }
+
+evenAndOddSubtraction([1, 2, 3, 4, 5, 6]);
+evenAndOddSubtraction([3, 5, 7, 9]);
+evenAndOddSubtraction([2, 4, 6, 8, 10]);

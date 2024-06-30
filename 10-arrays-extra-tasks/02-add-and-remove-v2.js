@@ -9,3 +9,7 @@ function addAndRemove(arr) {
 
     finalArr.length === 0 ? console.log('Empty') : console.log(finalArr.join(' '));
 }
+
+addAndRemove(['add', 'add', 'add', 'add']);
+addAndRemove(['add', 'add', 'remove', 'add', 'add']);
+addAndRemove(['remove', 'remove', 'remove']);

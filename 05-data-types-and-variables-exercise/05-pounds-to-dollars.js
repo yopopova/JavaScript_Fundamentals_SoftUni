@@ -4,3 +4,6 @@ function poundsToDollars(input) {
     let dollars = pounds * currency;
     console.log(dollars.toFixed(3));
 }
+
+poundsToDollars(80);
+poundsToDollars(39);

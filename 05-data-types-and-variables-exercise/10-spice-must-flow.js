@@ -16,3 +16,5 @@ function spiceMustFlow(input) {
     console.log(`${daysCounter}`);
     console.log(`${totalAmount}`);
 }
+
+spiceMustFlow(111);

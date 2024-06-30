@@ -12,7 +12,7 @@ function vacation(n, groupType, day) {
         }
 
         if (n >= 30) {
-            price *= 0.85;
+            price *= 0.85; // 15% off price on condition.
         }
 
     } else if (groupType === "Business") {
@@ -46,3 +46,6 @@ function vacation(n, groupType, day) {
 
     console.log(`Total price: ${price.toFixed(2)}`);
 }
+
+vacation(30, "Students", "Sunday");
+vacation(40, "Regular", "Saturday");

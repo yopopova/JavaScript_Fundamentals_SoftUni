@@ -19,3 +19,7 @@ function addAndRemove(arr) {
         console.log(newArr.join(' '));
     }
 }
+
+addAndRemove(['add', 'add', 'add', 'add']);
+addAndRemove(['add', 'add', 'remove', 'add', 'add']);
+addAndRemove(['remove', 'remove', 'remove']);

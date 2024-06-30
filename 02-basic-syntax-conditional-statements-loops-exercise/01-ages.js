@@ -15,3 +15,7 @@ function ages(input) {
         console.log("out of bounds");
     }
 }
+
+ages(20);
+ages(1);
+ages(100);

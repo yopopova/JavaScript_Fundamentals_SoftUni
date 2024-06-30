@@ -4,8 +4,8 @@ function specialNumbers(num) {
         let tempNum = i;
 
         while (tempNum > 0) {
-            sum += tempNum % 10;
-            tempNum = parseInt(tempNum / 10);
+            sum += tempNum % 10; // Here we take the second part of the number. This way we take only the units of the number.
+            tempNum = parseInt(tempNum / 10); // Here we take the first fart of the number.
         }
 
         let isSpecial;
@@ -19,3 +19,5 @@ function specialNumbers(num) {
         console.log(`${i} -> ${isSpecial}`);
     }
 }
+
+specialNumbers(15);

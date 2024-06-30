@@ -18,3 +18,6 @@ function amazingNumbers(num) {
 
     console.log(`${num} Amazing? ${isAmazing ? 'True' : 'False'}`);
 }
+
+amazingNumbers(1233);
+amazingNumbers(999);

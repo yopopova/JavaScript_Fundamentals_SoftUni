@@ -18,3 +18,5 @@ function specialNumbers(num) {
         console.log(`${i} -> ${isSpecial}`);
     }
 }
+
+specialNumbers(15);

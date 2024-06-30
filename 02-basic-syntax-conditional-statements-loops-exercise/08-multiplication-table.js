@@ -4,3 +4,6 @@ function multiplicationTable(n) {
         console.log(`${n} X ${i} = ${product}`);
     }
 }
+
+multiplicationTable(5);
+// multiplicationTable(2);

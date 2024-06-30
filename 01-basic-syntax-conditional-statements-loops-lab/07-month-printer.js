@@ -15,3 +15,6 @@ function monthPrinter(month) {
         default: console.log("Error!"); break;
     }
 }
+
+monthPrinter(2);
+monthPrinter(13);

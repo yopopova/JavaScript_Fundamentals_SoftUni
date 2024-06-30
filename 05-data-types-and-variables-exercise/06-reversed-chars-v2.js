@@ -16,3 +16,6 @@ function reversedChars(charOne, charTwo, charThree) {
 
     console.log(str);
 }
+
+reversedChars('A', 'B', 'C');
+reversedChars('1', 'L', '&');

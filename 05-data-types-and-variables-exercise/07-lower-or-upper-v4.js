@@ -5,3 +5,6 @@ function lowerOrUpper(input) {
         console.log('lower-case');
     }
 }
+
+lowerOrUpper('L');
+lowerOrUpper('f');

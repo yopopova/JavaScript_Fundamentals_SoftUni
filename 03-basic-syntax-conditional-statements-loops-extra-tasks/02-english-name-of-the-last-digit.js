@@ -21,3 +21,7 @@ function englishNameOfTheLastDigit(n) {
         console.log("nine");
     }
 }
+
+englishNameOfTheLastDigit(512);
+englishNameOfTheLastDigit(1);
+englishNameOfTheLastDigit(1643);

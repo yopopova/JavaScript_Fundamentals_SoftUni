@@ -11,3 +11,6 @@ function lowerOrUpper(input) {
 
     console.log(result);
 }
+
+lowerOrUpper('L');
+lowerOrUpper('f');

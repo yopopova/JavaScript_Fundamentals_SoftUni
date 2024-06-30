@@ -30,7 +30,7 @@ function thePyramidOfKingDjoser(base, increment) {
         }
     }
 
-    pyramidSteps++;
+    pyramidSteps++; // We raise by another 1, because of the step with the gold.
     let pyramidHeight = pyramidSteps * increment;
     gold += (base * base) * increment;
 
@@ -40,3 +40,8 @@ function thePyramidOfKingDjoser(base, increment) {
     console.log(`Gold required: ${Math.ceil(gold)}`);
     console.log(`Final pyramid height: ${Math.floor(pyramidHeight)}`);
 }
+
+// thePyramidOfKingDjoser(11, 1);
+// thePyramidOfKingDjoser(11, 0.75);
+// thePyramidOfKingDjoser(12, 1);
+thePyramidOfKingDjoser(23, 0.5);

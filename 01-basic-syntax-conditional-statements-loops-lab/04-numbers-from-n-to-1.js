@@ -6,3 +6,5 @@ function numbersFromNToOne(num) {
         i--;
     }
 }
+
+numbersFromNToOne(5);

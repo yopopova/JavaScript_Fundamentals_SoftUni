@@ -8,5 +8,12 @@ function reverseAnArrayOfStrings(arr) {
         arr[previousIndex] = firstElement;
     }
 
+    // When we need to reverse an array and the array has an odd number of elements,
+    // the middle element remains in the same place, i.e. does not rotate/replace.
+
     console.log(arr.join(' '));
 }
+
+reverseAnArrayOfStrings(['a', 'b', 'c', 'd', 'e']);
+reverseAnArrayOfStrings(['abc', 'def', 'hig', 'klm', 'nop']);
+reverseAnArrayOfStrings(['33', '123', '0', 'dd']);

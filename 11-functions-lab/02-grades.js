@@ -11,3 +11,7 @@ function grades(result) {
         console.log(`Excellent (${result.toFixed(2)})`);
     }
 }
+
+grades(3.33);
+grades(4.50);
+grades(2.99);

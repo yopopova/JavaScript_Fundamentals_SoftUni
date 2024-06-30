@@ -24,3 +24,6 @@ function addAndSubtract(input) {
     console.log(firstArrSum);
     console.log(secondArrSum);
 }
+
+addAndSubtract([5, 15, 23, 56, 35]);
+addAndSubtract([-5, 11, 3, 0, 2]);

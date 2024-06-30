@@ -16,3 +16,6 @@ function sumOfOddNumbers(n) {
         }
     }
 }
+
+sumOfOddNumbers(5);
+sumOfOddNumbers(3);

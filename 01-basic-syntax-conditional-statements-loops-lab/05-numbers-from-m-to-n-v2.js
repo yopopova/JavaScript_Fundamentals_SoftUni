@@ -6,3 +6,5 @@ function numbersFromMToN(m, n) {
         i--;
     }
 }
+
+numbersFromMToN(6, 2);
